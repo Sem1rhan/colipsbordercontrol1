@@ -1,29 +1,29 @@
 {
     "kayıtsızrolid": "KAYITSIZ ROLÜ",
     "Ban": {
-        "banyetkiliid": "BAN YETKİLİ",
-        "banlogkanalid": "BAN LOG"
+        "banyetkiliid": "580421826061271040",
+        "banlogkanalid": "1170057845824311458"
     },
     "Warn": {
-        "warnyetkiliid": "WARN YETKİLİ",
-        "warnlogkanalid": "WARN LOG"
+        "warnyetkiliid": "580421826061271040",
+        "warnlogkanalid": "1170057934865178779"
     },
     "Kick": {
-        "kickyetkiliid": "KİCK YETKİLİ",
-        "kicklogkanalid": "KİCK LOG"
+        "kickyetkiliid": "580421826061271040",
+        "kicklogkanalid": "1170058095418953910"
     },
     "Mute": {
-        "muteyetkiliid": "MUTE YETKİLİ",
+        "muteyetkiliid": "580421826061271040",
         "muterolid": "MUTE ROL",
         "mutelogkanalid": "MUTE LOG KANAL"
     },
     "Jail": {
-        "jailyetkiliid": "JAİL YETKİLİ",
+        "jailyetkiliid": "580421826061271040",
         "jailrolid": "JAİL ROL",
         "jaillogkanalid": "JAİL LOG"
     },
     "Emojiler": {
-        "başarılıemojiid": "ONAY EMOJİ",
-        "başarısızemojiid": "RED EMOJİ"
+        "başarılıemojiid": ":okey2:",
+        "başarısızemojiid": ":neonsignneon:"
     }
 }
