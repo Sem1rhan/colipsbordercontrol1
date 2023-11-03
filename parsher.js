@@ -126,5 +126,5 @@ client.login(process.env.token),
   console.log('Bot Aktif')
 // Alttaki id yazan yere kendi ses kanal id nizi girim
 client.on("ready", () => {
-  client.channels.cache.get("1109783460354216056").join();
+  client.channels.cache.get("1149406303022759988").join();
 })
