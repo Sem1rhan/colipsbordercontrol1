@@ -119,8 +119,25 @@ client.tarihHesapla = (date) => {
 //    db.delete(`üye.${member.id}.roller2`), db.delete(`üye.${member.id}.isim`);
 //  }
 //});
+module.exports = client => {
+  var degisenOynuyor = [
+    
+    "",
+    ""
+    
+  ]
+  
+  setInterval(function() {
+    var degisenOynuyor1 = degisenOynuyor[Math.floor(Math.random() * (degisenOynuyor.length))]
+    client.user.setActivity(`${degisenOynuyor1}`);
+    
 
-
+    
+}, 2 * 30000);
+  
+  client.user.setStatus("idle"); //dnd, idle, online, offline
+  
+}
 
 client.login(process.env.token),
   console.log('Bot Aktif')
